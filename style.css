@@ -1,0 +1,59 @@
+body{
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: #a2d2ff;
+    color: #ffffff;
+}
+h1,h2,h3,h4,p{
+    text-shadow: 0px 0px 1px black;
+}
+#profile{
+    border-radius: 50%;
+    width: 150px;
+    border: 6px solid #efb0efC9;
+    margin-bottom: 10px;
+}
+
+#bday-age{
+    background-color: #efb0efC9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date{
+    background-color: #efb0efC9;
+    padding: 5px 10px;
+    border-radius:3px;
+    margin-top: 0;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img-gift{
+    width: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    height: 400px;
+    background-image: url('images/gift-cover.jpg');
+    background-size: cover;
+    display: block;
+    margin: 0 auto;   
+}
+
+#img-gift:hover{
+    background-image: url('images/happy.gif');
+}
+
+
+.gift-title{
+margin-bottom: 10px;
+}
+
+.gift-hint{
+  margin-top: 10px;
+}
